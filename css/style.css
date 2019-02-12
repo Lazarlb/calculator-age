@@ -1,0 +1,57 @@
+/**Global**/
+html,body{
+    margin: 0px;
+    padding: 0px;
+   
+  background: #1a2980;
+  background: -webkit-linear-gradient(to right, #1a2980, #26d0ce); 
+  background: linear-gradient(to right, #1a2980, #26d0ce); 
+}
+
+/**Form**/
+section{
+    width: fit-content;
+    position: relative;
+    top: 40%;
+    left: 30%;
+    text-align: center;
+}
+.form{
+    display: block;
+    text-align: center;
+    border: 2px solid white;
+    width: fit-content;
+    transition: 2s;
+    width: 500px;
+}
+
+.form .p{
+    padding: 15px;
+    border-bottom: 2px solid white;
+    color: white;
+    font-size: 18px;
+}
+.form:hover{
+    border: 2px solid #1a2980db;
+    transition: 2s;
+}
+.form input,button{
+    margin: 10px;
+    display: block;
+    width: 96%;
+    text-align: center;
+    padding: 5px;
+}
+button{
+    cursor: pointer;
+    background: none;
+    border: 2px solid #1a2980db;    
+    transition: 1s;
+}
+button:hover{
+    border: 2px solid #1a298000; 
+    color: white;
+    transition: 1s;
+}
+
+/**../Form**/
